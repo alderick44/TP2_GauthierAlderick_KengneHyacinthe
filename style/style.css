@@ -1,0 +1,9 @@
+
+header{
+    height: 125px;
+}
+.header__nav-icon{
+    scale: 0.75;
+    position: relative;
+    top: 10px;
+}
