@@ -14,11 +14,10 @@ header{
     position: relative;
     top: 10px;
 }
-footer{
-    height: 125px;
-}
+    
 .subfooter__icone{
+    width: 30px;
     max-height: 30px;
-    width: auto;
+    object-fit: contain;
 }
 
