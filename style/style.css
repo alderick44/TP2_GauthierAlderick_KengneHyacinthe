@@ -1,9 +1,23 @@
 
+main{
+    min-height: 85vh; /* Garde le footer au bas de la page s'il n'y a pas de contenu */
+}
 header{
     height: 125px;
+}
+.nav-link:hover{
+    text-decoration: underline;
 }
 .header__nav-icon{
     scale: 0.75;
     position: relative;
     top: 10px;
 }
+footer{
+    height: 125px;
+}
+.subfooter__icone{
+    max-height: 30px;
+    width: auto;
+}
+
