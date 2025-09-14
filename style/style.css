@@ -13,8 +13,7 @@ header{
     width: auto;
     position: relative;
     top: 10px;
-}
-    
+} 
 .subfooter__icone{
     width: 30px;
     max-height: 30px;
@@ -23,5 +22,16 @@ header{
 
 .carousel-image{
     height: 300px;
+    object-fit: contain;
+}
+
+.card-img{
+    height: 55%;
+    object-fit: cover;
+}
+
+.card-icon{
+    width: 20px;
+    max-height: 20px;
     object-fit: contain;
 }
