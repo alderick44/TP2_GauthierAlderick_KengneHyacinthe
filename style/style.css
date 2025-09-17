@@ -1,25 +1,61 @@
-
-main{
-    min-height: 85vh; /* Garde le footer au bas de la page s'il n'y a pas de contenu */
+main {
+  min-height: 85vh; /* Garde le footer au bas de la page s'il n'y a pas de contenu */
 }
-header{
-    height: 125px;
+header {
+  height: 125px;
 }
-.nav-link:hover{
-    text-decoration: underline;
+.nav-link:hover {
+  text-decoration: underline;
 }
-.header__nav-icon{
-    height: 25px;
-    width: auto;
-    position: relative;
-    top: 10px;
-}
-    
-.subfooter__icone{
-    width: 30px;
-    max-height: 30px;
-    object-fit: contain;
+.header__nav-icon {
+  height: 25px;
+  width: auto;
+  position: relative;
+  top: 10px;
 }
 
+.subfooter__icone {
+  width: 30px;
+  max-height: 30px;
+  object-fit: contain;
+}
 
+/* MON CSSS POUR LA PAGE DE TOURNAGE */
 
+.tournage__title {
+  font-weight: 700;
+}
+
+.tournage__description {
+  font-size: 1rem;
+  color: #333;
+}
+
+.tournage__stat-number {
+  color: #000;
+}
+
+.tournage__stat-label {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.tournage__subtitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.tournage__artistic-description {
+  color: #444;
+}
+.tournage__subtitle,
+.tournage__artistic-description {
+  text-align: center;
+}
+
+/* RESPONSIVITÉ DE SÉCURITÉ*/
+@media (max-width: 768px) {
+  .tournage__stat-number {
+    font-size: 2.5rem;
+  }
+}
