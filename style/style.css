@@ -28,7 +28,7 @@ header {
 /*.tournage__stat-number {
   color: #000;
 }
-  */
+  
 
 /* .tournage__stat-label {
   font-size: 0.875rem;
@@ -58,10 +58,3 @@ header {
 }
 
 */
-
-/* RESPONSIVITÉ DE SÉCURITÉ*/
-@media (max-width: 768px) {
-  .tournage__stat-number {
-    font-size: 2.5rem;
-  }
-}
