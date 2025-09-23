@@ -4,18 +4,17 @@
 <head>
     <meta charset="UFT-8">
     <title>TP2</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
 </head>
 
 <body>
-    <header class="bg-dark-subtle">
+    <header class="bg-dark">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <img src="img/logo.png" alt="logo" class="h-50">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-dark navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,12 +25,12 @@
                             <li class="nav-item d-flex align-items-center">
                                 <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone champignon"
                                     aria-hidden="true">
-                                <a class="nav-link" href="index.html">Accueil</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                             </li>
                             <li class="nav-item d-flex align-items-center">
                                 <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone champignon"
                                     aria-hidden="true">
-                                <a class="nav-link active" aria-current="page" href="tournage.html">Tournage</a>
+                                <a class="nav-link" href="tournage.html">Tournage</a>
                             </li>
                         </ul>
                     </div>
@@ -43,8 +42,8 @@
     <!-- SECTION EN TETE -->
 
     <main>
-        <section class="container border-bottom border-dark-subtle my-5">
-            <div class="row align-items-center flex-column-reverse flex-xl-row my-5">
+        <section class="container border-bottom">
+            <div class="row align-items-center flex-column-reverse flex-xl-row mb-5">
                 <!-- IMAGE PRINCIPALE -->
                 <div class="col-xl-6 col-md-12 mb-4 mt-3 mt-xl-0 mb-xl-0 ">
                     <img src="img/hero-tournage.png" alt="Photo illustrative des faits divers"
@@ -62,23 +61,23 @@
 
                     <div class="row">
                         <div class="col-6 mb-3">
-                            <p class="text-black display-5 fw-bold">44M</p>
-                            <p class="text-secondary fs-6">Budget alloué</p>
+                            <p class="display-5 fw-bold">44M</p>
+                            <p class="fs-6">Budget alloué</p>
                         </div>
                         <div class="col-6 mb-3">
-                            <p class="text-black display-5 fw-bold">40K</p>
-                            <p class="text-secondary fs-6">Heures cumulées de post-production</p>
+                            <p class="display-5 fw-bold">40K</p>
+                            <p class="fs-6">Heures cumulées de post-production</p>
                         </div>
                         <div class="col-6 mb-3">
-                            <p class="text-black display-5 fw-bold">324</p>
-                            <p class="text-secondary fs-6">Figurants</p>
+                            <p class="display-5 fw-bold">324</p>
+                            <p class="fs-6">Figurants</p>
                         </div>
                         <div class="col-6 mb-3">
-                            <p class="text-black display-5 fw-bold">12</p>
-                            <p class="text-secondary fs-6">Districts avec des décors réels</p>
+                            <p class="display-5 fw-bold">12</p>
+                            <p class="fs-6">Districts avec des décors réels</p>
                         </div>
                     </div>
-                    <button class="btn btn-outline-dark mt-3" type="button"
+                    <button class="btn border my-3" type="button"
                         aria-label="En savoir plus sur les faits divers">En savoir plus</button>
                 </div>
             </div>
@@ -86,7 +85,7 @@
 
         <!-- SECTION GALERIE -->
 
-        <section class="container border-bottom border-dark-subtle py-5 my-5" aria-label="Photos du tournage et bloopers">
+        <section class="container border-bottom py-5 my-5" aria-label="Photos du tournage et bloopers">
 
             <div class="row g-3">
                 <div class="col-6 col-xl-4">
@@ -120,7 +119,7 @@
         </section>
 
         <!-- SECTION ACCORDION -->
-        <section class="container mb-5">
+        <section class="container pb-5">
             <h2 class="text-center fw-semibold fs-4 mb-3">Présentation de la direction artistique</h2>
             <p class="text-center mb-4 ">
                 Dès sa sortie, le film a marqué une génération. Son esthétique, ses choix narratifs et sa mise en scène
@@ -331,28 +330,26 @@
         </section>
     </main>
 
-    <footer role="contentinfo" aria-label="Bas de page" class="bg-dark-subtle d-flex align-items-center">
-        <div class="container pt-2 pb-1">
+    <footer role="contentinfo" aria-label="Bas de page" class="bg-dark d-flex align-items-center">
+        <div class="container pt-2 pb-1 responsive">
             <div class="row">
-                <nav class="d-flex gap-4 flex-md-column flex-xl-row
-                        justify-content-center justify-content-xl-start align-items-start align-items-xl-center
-                        col-12 col-md-4 col-xl-4">
-                    <div class="">
+                <nav class="d-flex gap-4 flex-md-column flex-xl-row justify-content-center justify-content-xl-start align-items-start align-items-xl-center col-12 col-md-4 col-xl-4">
+                    <div>
                         <img class="subfooter__icone"
-                            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png" alt="téléphone">
-                        <a href="index.html">+1 133 1203</a>
+                            src="img/phone.png">
+                        <a href="index.html" class="link-primary">+1 133 1203</a>
                     </div>
-                    <div class="">
+                    <div>
                         <img class="subfooter__icone"
-                            src="https://upload.wikimedia.org/wikipedia/commons/6/64/VK_icons_mail_outline_56.svg"
+                            src="img/mail.png"
                             alt="mail">
-                        <a href="index.html">cegep@troisriviere.ca</a>
+                        <a href="index.html" class="link-primary">cegep@troisriviere.ca</a>
                     </div>
                 </nav>
                 <div class="col-3 col-md-3 col-xl-3">
                 </div>
                 <div class="d-flex flex-column flex-xl-row align-items-center justify-content-between gap-2 
-                        col-md-5 col-xl-5">
+                col-md-5 col-xl-5">
                     <p class="small m-2">Aldérick Gauthier et Hyacinthe Junior Kengne</p>
                     <nav class="row g-2 m-2">
                         <a href="index.html" class="col-3"><img class="subfooter__icone"
@@ -370,7 +367,7 @@
                     </nav>
                 </div>
             </div>
-            <p class="text-center text-md-start border-top border-4 border-dark-subtle pt-2 mb-1">Cégep de
+            <p class="text-center text-md-start border-top border-4 pt-2 mb-1">Cégep de
                 Trois-Rivières</p>
         </div>
     </footer>

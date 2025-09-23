@@ -1,7 +1,8 @@
 :root {
   --bs-primary: #C5A028;     
-  --bs-secondary: #8A6E1E; 
-  --bs-tertiary: #B22222; 
+  --bs-secondary: #8A6E1E;
+  --bs-secondary-rgb: rgb(138 110 30);
+  --bs-tertiary: #B22222;
 
   --bs-border-color: var(--bs-secondary);
 
@@ -10,8 +11,9 @@
   --bs-body-bg: linear-gradient(180deg,#121212,#4e3212,#2b0808,#121212);; /*Background*/
   
   --bs-dark: #121212;   /*Header-Footer*/
-  --bs-dark-rgb: 18, 18, 18;  
-
+  --bs-dark-rgb: 18, 18, 18;
+  
+  --accordion-icone : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23f9f9d1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
 
   /*Pour modifier l'url de l'icone navbar...(mobile)
   /* --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23C5A028' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22 M4 15h22 M4 23h22'/%3E%3C/svg%3E"); */
@@ -22,6 +24,19 @@
 .navbar-light .navbar-toggler-icon {
   background-image: var(--bs-navbar-toggler-icon-bg);
 } */
+
+.accordion{
+  --bs-accordion-btn-icon : var(--accordion-icone);
+}
+.accordion-button:not(.collapsed){
+  background-color: #12121200;
+  color: var(--bs-body-color);
+  --bs-accordion-btn-active-icon: var(--accordion-icone);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.15rem var(--bs-border-color);
+}
 
 /*Navigation*/
 .nav-link{
