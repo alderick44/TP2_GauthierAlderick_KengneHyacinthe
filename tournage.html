@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UFT-8">
     <title>TP2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
     <header class="bg-dark">
         <div class="container d-flex justify-content-between align-items-center h-100">
@@ -23,14 +21,14 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item d-flex align-items-center">
-                                <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone champignon"
+                                <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone arc"
                                     aria-hidden="true">
-                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
                             </li>
                             <li class="nav-item d-flex align-items-center">
-                                <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone champignon"
+                                <img class="header__nav-icon mb-3" src="img/icone-arc.png" alt="icone arc"
                                     aria-hidden="true">
-                                <a class="nav-link" href="tournage.html">Tournage</a>
+                                <a class="nav-link active" href="tournage.html">Tournage</a>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +44,7 @@
             <div class="row align-items-center flex-column-reverse flex-xl-row mb-5">
                 <!-- IMAGE PRINCIPALE -->
                 <div class="col-xl-6 col-md-12 mb-4 mt-3 mt-xl-0 mb-xl-0 ">
-                    <img src="img/hero-tournage.png" alt="Photo illustrative des faits divers"
+                    <img src="img/hero-tournage.png" alt="Affiche des 75e Hunger Games"
                         class="img-fluid rounded">
                 </div>
 
@@ -77,8 +75,8 @@
                             <p class="fs-6">Districts avec des décors réels</p>
                         </div>
                     </div>
-                    <button class="btn border my-3" type="button"
-                        aria-label="En savoir plus sur les faits divers">En savoir plus</button>
+                    <a href="tournage.html" class="btn btn-primary border my-3" type="button"
+                        aria-label="En savoir plus sur les faits divers">En savoir plus</a>
                 </div>
             </div>
         </section>
@@ -86,36 +84,32 @@
         <!-- SECTION GALERIE -->
 
         <section class="container border-bottom py-5 my-5" aria-label="Photos du tournage et bloopers">
-
             <div class="row g-3">
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie1.png" alt="Photo 1 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie1.png" alt="Katniss avec sa tenue de la révolte." class="img-fluid rounded h-100">
                 </div>
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie2.png" alt="Photo 2 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie6.png" alt="Katniss honorant Ruth avec des fleurs." class="img-fluid rounded h-100">
                 </div>
-
                 <div class="col-3 d-xl-none">
                     <!-- Permet de centrer l'image qui est seule dans sa rangée (responsive) -->
                 </div>
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie3.png" alt="Photo 3 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie8.jpg" alt="Tournage du tirage au sort" class="img-fluid rounded h-100">
                 </div>
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie4.png" alt="Photo 4 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie9.jpg" alt="Josh Hutcherson se fait peindre le bras avec un motif coloré." class="img-fluid rounded h-100">
                 </div>
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie5.png" alt="Photo 5 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie10.jpg" alt="Katniss lors de son entraînement avant les jeux" class="img-fluid rounded h-100">
                 </div>
-
                 <div class="col-3 d-xl-none">
                     <!-- Permet de centrer l'image qui est seule dans sa rangée (responsive)-->
                 </div>
                 <div class="col-6 col-xl-4">
-                    <img src="img/img_galerie6.png" alt="Photo 6 du tournage" class="img-fluid rounded">
+                    <img src="img/img_galerie11.jpg" alt="Katniss plongeant dans l'eau lors du départ de la 75e édition du jeu" class="img-fluid rounded h-100">
                 </div>
             </div>
-
         </section>
 
         <!-- SECTION ACCORDION -->
@@ -125,7 +119,6 @@
                 Dès sa sortie, le film a marqué une génération. Son esthétique, ses choix narratifs et sa mise en scène
                 ont influencé la pop culture, la mode et même les mouvements sociaux.
             </p>
-
             <div class="row row-cols-1 row-cols-xl-2 g-3" id="accordionExample">
                 <!-- COLONE DE GAUCHE -->
                 <div class="col">
@@ -335,14 +328,11 @@
             <div class="row">
                 <nav class="d-flex gap-4 flex-md-column flex-xl-row justify-content-center justify-content-xl-start align-items-start align-items-xl-center col-12 col-md-4 col-xl-4">
                     <div>
-                        <img class="subfooter__icone"
-                            src="img/phone.png">
+                        <img class="subfooter__icone" src="img/phone.png" alt="icone téléphone">
                         <a href="index.html" class="link-primary">+1 133 1203</a>
                     </div>
                     <div>
-                        <img class="subfooter__icone"
-                            src="img/mail.png"
-                            alt="mail">
+                        <img class="subfooter__icone" src="img/mail.png" alt="icone email">
                         <a href="index.html" class="link-primary">cegep@troisriviere.ca</a>
                     </div>
                 </nav>
