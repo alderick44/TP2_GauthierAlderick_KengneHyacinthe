@@ -17,13 +17,13 @@
 }
 /*Bootstrap components*/
 .card-img {
-  height: 45vh;
+  height: 55vh;
   object-fit: cover;
   object-position: center 12%;
 }
 .carousel-item {
   img{
-    height: 40vh;
+    height: 55vh;
     object-fit: contain;
   }
 }
