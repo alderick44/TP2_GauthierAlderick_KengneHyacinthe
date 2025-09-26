@@ -78,7 +78,7 @@
 }
 /*CSS minimal*/
 img{
-  object-fit: cover
+  object-fit: cover;
 }
 header {
   height: 125px;
