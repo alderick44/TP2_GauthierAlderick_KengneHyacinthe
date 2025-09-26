@@ -4,6 +4,7 @@ Aldérick Gauthier :
 - Fusion des branches.
 - Création page accueil.
 - Corrections finales.
+  
 Hyacinthe Junior Kengne : 
 - Création de la page tournage.
 - Création de l'accordion.
